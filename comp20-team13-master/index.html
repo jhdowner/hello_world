@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cheep Gas</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <script src="jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places&sensor=true"></script>
+    <script type="text/javascript" src = "gasapi.js"></script>
+    <script type="text/javascript" src="map.js"></script>
+    <script type="text/javascript" src="node.js"></script>
+   <script type="text/javascript" src="https://www.dropbox.com/static/api/1/dropins.js" id="dropboxjs" data-app-key="xv8s6cyy4phmk45"></script>
+    
+    
+    <link rel="stylesheet" href="vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="css/map.css">
+  </head>
+  
+    <body onload="initialize()">
+
+	<div id="map_canvas"> </div>
+	<h3>Enter a radius to look for gas: <input type="number" id="radi" name="radi" onchange="status_dom()" size="10" /></h3>
+	<div id="input_radius"> </div>
+	
+
+<!--
+    <div id="login-container">
+    <form method="post" id="login-form" class="well span4">
+      <h1>Welcome to CheepGas!</h1>
+      <p class="subheading">Please Login To Your Account</p>
+      <label>Username </label>
+      <input type="text" name="user" id="user-tf" class="span4 required">
+      <label>Password</label>
+      <input type="password" name="pass" id="pass-tf" class="span4 required">
+      <button type="submit" id="btn-login" class="btn btn-primary"><i class="icon-lock icon-white"></i>Sign in</button>
+      <label id="remember-me" class="checkbox">Remember Me
+        <input type="checkbox" checked="checked">
+      </label>
+      <div class="clear-fix"></div>
+      <hr>
+      <div class="btm-links"><a href="#" id="forgot-password">Forgot Your Password?</a><a href="/signup" id="create-account">Create An Account</a></div>
+      <hr>
+      <input type="dropbox-chooser" name="CheepGas" style="visibility: hidden;"/>
+    </form>
+  </div>
+  <div class="modal-alert modal hide fade">
+    <div class="modal-header">
+      <button data-dismiss="modal" class="close">x</button>
+      <h3></h3>
+    </div>
+    <div class="modal-body">
+      <p></p>
+    </div>
+    <div class="modal-footer">
+      <button data-dismiss="modal" id="ok" class="btn btn-warning">OK</button>
+    </div>
+  </div>
+  <div id="get-credentials" class="modal-single-input modal hide fade">
+    <div class="modal-header">
+      <button data-dismiss="modal" class="close">x</button>
+      <h3>Retrieve Password</h3>
+    </div>
+    <div class="modal-body">
+      <form method="post" id="get-credentials-form" class="well span5">
+        <p>Please enter the email address associated with your account</p>
+        <input type="text" name="email" id="email-tf" class="span5 required">
+        <button type="submit" id="submit" class="btn btn-primary">Submit</button>
+        <button data-dismiss="modal" id="cancel" class="btn">Cancel</button>
+        <div class="alert alert-error hide"></div>
+        <button data-dismiss="alert" class="close"></button>
+      </form>
+    </div>
+    <div class="modal-footer"></div>
+  </div>
+  <script src="/vendor/jquery.min.js"></script>
+  <script src="/vendor/jquery.form.js"></script>
+  <script src="/vendor/bootstrap-modal.js"></script>
+  <script src="/vendor/bootstrap-transition.js"></script>
+  <script src="/js/views/login.js"></script>
+  <script src="/js/controllers/loginController.js"></script>
+  <script src="/js/form-validators/loginValidator.js"></script>
+  <script src="/js/form-validators/emailValidator.js"></script>
+  
+    </div>
+-->
+	</body>
+  
+</html>
